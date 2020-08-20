@@ -1,12 +1,22 @@
+<!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
     <title>Lookodd: Adventures of the tadpole</title>
-    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+    <script type="text/javascript" src="/paper-full.min.js"></script>
+    <script type="text/paperscript" src="/game.js" canvas="gameCanvas"></script>
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+      body {
+        background: #3a409e;
+      }
+    </style>
   </head>
-
   <body>
-    <header>Test</header>
-    <canvas width="800" height="600" id="demoCanvas"></canvas>
+    <canvas id="gameCanvas" resize></canvas>
   </body>
-  <script src="game.js"></script>
 </html>
